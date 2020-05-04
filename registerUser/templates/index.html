@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+
+    <div class="index">
+        <h3>This is home page of Login system</h3>
+        {% if user.is_authenticated%}
+        <p> You are looged in ...Thankyou</p>
+        {% endif %}
+    </div>
+
+
+
+{% endblock %}
