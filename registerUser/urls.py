@@ -5,7 +5,7 @@ from django.contrib.auth import views as auth_views
 app_name='registerUser'
 urlpatterns = [
 
-    #homepage list of articale
+    #homepage
     path('', views.index, name='index'),
 
     #user register,login,logout
